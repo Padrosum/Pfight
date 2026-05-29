@@ -1,0 +1,16 @@
+{
+  "name": "pfight",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "parcel index.html --port 5173",
+    "build": "parcel build index.html",
+    "preview": "parcel build index.html && npx serve dist"
+  },
+  "dependencies": {
+    "pixi.js": "^8.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4",
+    "typescript": "^5.4.0"
+  }
+}
