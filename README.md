@@ -89,7 +89,3 @@ npm run build
 
 **Procedural SFX** — `SoundEngine` synthesizes all sounds on the fly using `OscillatorNode` and noise buffers. No audio files required.
 
-## License
-
-MIT
-# Pfight
