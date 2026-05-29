@@ -1,11 +1,12 @@
 {
   "name": "pfight",
   "version": "1.0.0",
-  "scripts": {
-    "dev": "parcel index.html --port 5173",
-    "build": "parcel build index.html",
-    "preview": "parcel build index.html && npx serve dist"
-  },
+"scripts": {
+  "dev": "parcel index.html",
+  "build": "parcel build index.html --dist-dir dist",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "pixi.js": "^8.0.0"
   },
